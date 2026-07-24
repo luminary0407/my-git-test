@@ -1,9 +1,22 @@
+/* 全局字体与背景 */
 body {
-  font-family: Arial, sans-serif;
-  margin: 2rem;
-  line-height: 1.6;
+    background-color: #f0f2f5;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
-h1 {
-  color: #333;
+/* 卡片美化 */
+.card {
+    border-radius: 20px;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+/* 按钮动效 */
+button {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 24px rgba(25, 135, 84, 0.3);
 }
